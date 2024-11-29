@@ -1,1 +1,26 @@
-https://jam.dev/c/ac340e67-61e1-428b-9d26-51fce04c788b
+WAIZLY ENGINEER ASSESSMENT
+
+# Problem Solving basic
+
+1. `git clone`
+2. `cd problemSolving`
+3. `npm install` or `yarn install`
+4. `node problemSolvingBasic{numberTest}.index.js`
+
+
+# Frontend
+1. `git clone`
+2. `cd frontend`
+3. `npm install` or `yarn install`
+4. `npm run dev` or `yarn dev`
+5. Checking....
+
+- [] Minimum Feature
+- [] Animation ( i am use react-transition-group )
+- [] Search bar
+- [] Get Data from public api ( i am use jokeapi.dev )
+- [] Testing
+- [] Design pattern
+
+jamdev : https://jam.dev/c/ac340e67-61e1-428b-9d26-51fce04c788b
+
