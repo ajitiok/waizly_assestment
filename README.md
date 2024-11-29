@@ -15,7 +15,7 @@ WAIZLY ENGINEER ASSESSMENT
 4. `npm run dev` or `yarn dev`
 5. Checking....
 
-- [] Minimum Feature
+- [ ] Minimum Feature
 - [] Animation ( i am use react-transition-group )
 - [] Search bar
 - [] Get Data from public api ( i am use jokeapi.dev )
