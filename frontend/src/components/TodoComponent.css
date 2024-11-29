@@ -1,0 +1,21 @@
+/* Animasi untuk menambahkan task */
+.todo-item-enter {
+  opacity: 0;
+  transform: scale(0.8) translateY(-20px); /* Tambahkan efek scale dan geser ke atas */
+}
+.todo-item-enter-active {
+  opacity: 1;
+  transform: scale(1) translateY(0); /* Skalakan ke ukuran asli dan geser ke posisi semula */
+  transition: opacity 1000ms ease, transform 1000ms ease; /* Perpanjang durasi menjadi 1000ms */
+}
+
+/* Animasi untuk menghapus task */
+.todo-item-exit {
+  opacity: 1;
+  transform: scale(1) translateY(0); /* Posisi awal */
+}
+.todo-item-exit-active {
+  opacity: 0;
+  transform: scale(0.8) translateY(20px); /* Menyusut dan turun ke bawah */
+  transition: opacity 1000ms ease, transform 1000ms ease; /* Perpanjang durasi menjadi 1000ms */
+}
