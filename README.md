@@ -19,7 +19,7 @@ WAIZLY ENGINEER ASSESSMENT
 - [v] Animation ( i am use react-transition-group )
 - [v] Search bar
 - [v] Get Data from public api ( i am use jokeapi.dev )
-- [v] Testing
+- [ ] Testing
 - [v] Design pattern
 
 jamdev : https://jam.dev/c/ac340e67-61e1-428b-9d26-51fce04c788b
