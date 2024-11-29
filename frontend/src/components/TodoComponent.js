@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import './TodoComponent.css'; // Pastikan Anda menambahkan file CSS untuk animasi
+import './TodoComponent.css';
 
 const TodoApp = () => {
   const [todos, setTodos] = useState([]);
@@ -10,31 +10,25 @@ const TodoApp = () => {
   const [editedText, setEditedText] = useState('');
 
   
-
-  // Menambahkan task baru
   const addTodo = (text) => {
     setTodos([...todos, { text, completed: false }]);
   };
 
-  // Menghapus task
   const deleteTodo = (index) => {
     setTodos(todos.filter((_, i) => i !== index));
   };
 
-  // Menandai task sebagai selesai atau kembali ke belum selesai
   const toggleComplete = (index) => {
     setTodos(
       todos.map((todo, i) => (i === index ? { ...todo, completed: !todo.completed } : todo))
     );
   };
 
-  // Mulai mengedit task
   const startEdit = (index) => {
     setEditingIndex(index);
     setEditedText(todos[index].text);
   };
 
-  // Menyimpan perubahan edit
   const saveEdit = (index) => {
     if (editedText.trim()) {
       setTodos(
@@ -47,7 +41,6 @@ const TodoApp = () => {
     }
   };
 
-  // Filter todo berdasarkan searchText
   const filteredTodos = todos.filter((todo) =>
     todo.text.toLowerCase().includes(searchText.toLowerCase())
   );

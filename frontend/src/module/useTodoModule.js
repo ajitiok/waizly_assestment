@@ -1,16 +1,13 @@
 import { useState } from 'react';
 
 const useTodoModule = () => {
-  // State untuk menyimpan daftar todo dan teks pencarian
   const [todos, setTodos] = useState([]);
   const [searchText, setSearchText] = useState('');
 
-  // Private function to filter todos based on search text
   const filteredTodos = () => {
     return todos.filter(todo => todo.text.toLowerCase().includes(searchText.toLowerCase()));
   };
 
-  // Public methods
   const addTodo = (text) => {
     setTodos([...todos, { text, completed: false }]);
   };
