@@ -15,12 +15,12 @@ WAIZLY ENGINEER ASSESSMENT
 4. `npm run dev` or `yarn dev`
 5. Checking....
 
-- [ ] Minimum Feature
-- [ ] Animation ( i am use react-transition-group )
-- [ ] Search bar
-- [ ] Get Data from public api ( i am use jokeapi.dev )
-- [ ] Testing
-- [ ] Design pattern
+- [v] Minimum Feature
+- [v] Animation ( i am use react-transition-group )
+- [v] Search bar
+- [v] Get Data from public api ( i am use jokeapi.dev )
+- [v] Testing
+- [v] Design pattern
 
 jamdev : https://jam.dev/c/ac340e67-61e1-428b-9d26-51fce04c788b
 
