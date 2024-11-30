@@ -8,6 +8,17 @@ WAIZLY ENGINEER ASSESSMENT
 4. `node problemSolvingBasic{numberTest}.index.js`
 
 
+# Backend
+
+- Implementation Test 1
+    - [v] CRUD
+    - [v] Authentication & Authorization
+    - [v] Implement Login
+    - [ ] Testing
+    - [v] Design pattern    
+- Implementation Test 2 
+    [v] Queries
+
 # Frontend
 1. `git clone`
 2. `cd frontend`
